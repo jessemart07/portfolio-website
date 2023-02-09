@@ -705,6 +705,10 @@ form{
     display: flex;
     flex-direction: column;
 }
+#my-form-status{
+    text-align: center;
+    padding: 1.25rem;
+}
 .desktop {
     display: none;
 }
