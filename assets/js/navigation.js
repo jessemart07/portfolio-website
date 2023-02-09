@@ -19,7 +19,7 @@ $(document).ready(function () {
 
     scroll.each(function () {
       var sectionOffSet = $(this.hash).offset().top - 100;
-      if (this.id != 'checkBtn') {
+      if (this.id != 'cta-btn') {
         if (sectionOffSet <= scrollbarLocation) {
           $(this).parent().addClass('active');
           $(this).parent().siblings().removeClass('active');

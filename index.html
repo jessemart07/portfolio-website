@@ -79,6 +79,9 @@
       <div class="heading">
         <h1>Hi, I'm <span>Jesse</span></h1>
         <h2>I love to code</h2>
+        <a class="btn-link scroll" id="cta-btn" href="#my-work"
+          >View my portfolio <i class="fa-solid fa-arrow-down-long"></i
+        ></a>
       </div>
       <div class="profile-img">
         <img
@@ -314,7 +317,10 @@
       <div class="portfolio-box">
         <div class="portfolio-left">
           <h3 class="title">Memories</h3>
-          <img src="" alt="" />
+          <img
+            src="./assets/img/Memories.png"
+            alt="website with blue background and form on the right-hand side"
+          />
         </div>
         <div class="portfolio-right">
           <div class="tech-container">
@@ -326,10 +332,63 @@
           <p class="work-description">
             This was an app I built in order to learn the MERN Stack. It is a
             simple webapp where the user can upload a memory with a description.
-            This is then saved to a mondoDB database. I used express for the
+            This is then saved to a mongoDb database. I used express for the
             back-end and react for the front-end. It was a fun learning
             experience for me.
           </p>
+        </div>
+      </div>
+    </section>
+    <section id="my-skills">
+      <h2>My Skills</h2>
+      <div class="center-col">
+        <div class="skill">
+          <p>Redux and Redux</p>
+          <i class="fa-brands fa-react"></i>
+        </div>
+        <div class="skill">
+          <p>Angular</p>
+          <i class="fa-brands fa-angular"></i>
+        </div>
+        <div class="skill">
+          <p>Node & Express</p>
+          <i class="fa-brands fa-node-js"></i>
+        </div>
+        <div class="skill">
+          <p>Mysql & NoSql</p>
+          <i class="fa-solid fa-database"></i>
+        </div>
+        <div class="skill">
+          <p>Unity 2D - C#</p>
+          <i class="fa-brands fa-unity"></i>
+        </div>
+        <div class="skill">
+          <p>Github</p>
+          <i class="fa-brands fa-github"></i>
+        </div>
+        <div class="skill">
+          <p>Wordpress</p>
+          <i class="fa-brands fa-wordpress-simple"></i>
+        </div>
+        <div class="skill">
+          <p>HTML5</p>
+          <i class="fa-brands fa-html5"></i>
+        </div>
+        <div class="skill">
+          <p>CSS3</p>
+          <i class="fa-brands fa-css3-alt"></i>
+        </div>
+        <div class="skill">
+          <p>SASS</p>
+          <i class="fa-brands fa-sass"></i>
+        </div>
+        <div class="skill">
+          <p>Javascript - ES6</p>
+          <i class="fa-brands fa-square-js"></i>
+        </div>
+        <div class="skill">
+          <p>PHP</p>
+          <i class="fa-brands fa-php"></i>
         </div>
       </div>
     </section>
@@ -439,59 +498,6 @@
         </div>
       </div>
     </section>
-    <section id="my-skills">
-      <h2>My Skills</h2>
-      <div class="center-col">
-        <div class="skill">
-          <p>Redux and Redux</p>
-          <i class="fa-brands fa-react"></i>
-        </div>
-        <div class="skill">
-          <p>Angular</p>
-          <i class="fa-brands fa-angular"></i>
-        </div>
-        <div class="skill">
-          <p>Node & Express</p>
-          <i class="fa-brands fa-node-js"></i>
-        </div>
-        <div class="skill">
-          <p>Mysql & NoSql</p>
-          <i class="fa-solid fa-database"></i>
-        </div>
-        <div class="skill">
-          <p>Unity 2D - C#</p>
-          <i class="fa-brands fa-unity"></i>
-        </div>
-        <div class="skill">
-          <p>Github</p>
-          <i class="fa-brands fa-github"></i>
-        </div>
-        <div class="skill">
-          <p>Wordpress</p>
-          <i class="fa-brands fa-wordpress-simple"></i>
-        </div>
-        <div class="skill">
-          <p>HTML5</p>
-          <i class="fa-brands fa-html5"></i>
-        </div>
-        <div class="skill">
-          <p>CSS3</p>
-          <i class="fa-brands fa-css3-alt"></i>
-        </div>
-        <div class="skill">
-          <p>SASS</p>
-          <i class="fa-brands fa-sass"></i>
-        </div>
-        <div class="skill">
-          <p>Javascript - ES6</p>
-          <i class="fa-brands fa-square-js"></i>
-        </div>
-        <div class="skill">
-          <p>PHP</p>
-          <i class="fa-brands fa-php"></i>
-        </div>
-      </div>
-    </section>
     <section id="my-experience">
       <h2>My Experience</h2>
       <div class="exp">
@@ -570,7 +576,10 @@
           >
         </div>
         <div class="education-block">
-          <h3>Front End Development Libraries, FreeCodeCamp</h3>
+          <h3>
+            Front End Development Libraries,
+            <i class="fa-brands fa-free-code-camp"></i> FreeCodeCamp
+          </h3>
           <p>January 2023</p>
           <a
             href="https://www.freecodecamp.org/certification/Jesse07/front-end-development-libraries"
@@ -580,7 +589,10 @@
           >
         </div>
         <div class="education-block">
-          <h3>JavaScript Algorithms and Data Structures, FreeCodeCamp</h3>
+          <h3>
+            JavaScript Algorithms and Data Structures,
+            <i class="fa-brands fa-free-code-camp"></i> FreeCodeCamp
+          </h3>
           <p>December 2022</p>
           <a
             href="https://www.freecodecamp.org/certification/Jesse07/javascript-algorithms-and-data-structures"
@@ -601,29 +613,114 @@
       <h2>Contact me</h2>
 
       <div class="form">
-        <div>
+        <div id="form-left">
           <p>Drop me a message. I'd love to be apart of your project</p>
-          <div class="links">
-            <div class="link">
-              <i class="fa-brands fa-github"></i> My github
-            </div>
-            <div class="link">
-              <i class="fa-brands fa-linkedin"></i> My Linkedin
-            </div>
+          <div class="links desktop">
+            <a
+              class="link"
+              href="https://github.com/jessemart07"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              class="link"
+              href="http://www.linkedin.com/in/jesse-martin-986971151"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              class="link"
+              href="https://codesandbox.io/u/jessedev07"
+              target="_blank"
+              ><i class="fa-solid fa-code"></i
+            ></a>
           </div>
         </div>
 
-        <form action="">
+        <form
+          action="https://formspree.io/f/mlekjbdz"
+          method="POST"
+          id="my-form"
+        >
           <input type="text" name="name" id="name" placeholder="Name" />
           <input type="email" name="email" id="email" placeholder="Email" />
 
           <textarea name="message" id="message" cols="30" rows="20">
 Message...</textarea
           >
+          <button class="btn" type="submit">Submit</button>
+          <p id="my-form-status"></p>
         </form>
+        <div class="links mobile">
+          <a class="link" href="https://github.com/jessemart07" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            class="link"
+            href="http://www.linkedin.com/in/jesse-martin-986971151"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            class="link"
+            href="https://codesandbox.io/u/jessedev07"
+            target="_blank"
+            ><i class="fa-solid fa-code"></i
+          ></a>
+        </div>
       </div>
     </section>
-    <footer></footer>
+    <footer class="footer">
+      Jesse's Portfolio Website |
+      <span id="year"></span>
+    </footer>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+      function onSubmit(token) {
+        document.getElementById('demo-form').submit();
+      }
+    </script>
+    <script>
+      var form = document.getElementById('my-form');
+
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById('my-form-status');
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            Accept: 'application/json',
+          },
+        })
+          .then((response) => {
+            if (response.ok) {
+              status.innerHTML = 'Thanks for your submission!';
+              form.reset();
+            } else {
+              response.json().then((data) => {
+                if (Object.hasOwn(data, 'errors')) {
+                  status.innerHTML = data['errors']
+                    .map((error) => error['message'])
+                    .join(', ');
+                } else {
+                  status.innerHTML =
+                    'Oops! There was a problem submitting your form';
+                }
+              });
+            }
+          })
+          .catch((error) => {
+            status.innerHTML = 'Oops! There was a problem submitting your form';
+          });
+      }
+      form.addEventListener('submit', handleSubmit);
+    </script>
+    <script>
+      const year = new Date().getFullYear();
+      document.getElementById('year').innerHTML = year;
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./assets/js/navigation.js"></script>
   </body>
