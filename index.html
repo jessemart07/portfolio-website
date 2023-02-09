@@ -642,10 +642,22 @@
           method="POST"
           id="my-form"
         >
-          <input type="text" name="name" id="name" placeholder="Name" />
-          <input type="email" name="email" id="email" placeholder="Email" />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
 
-          <textarea name="message" id="message" cols="30" rows="20">
+          <textarea name="message" id="message" cols="30" rows="20" required>
 Message...</textarea
           >
           <button class="btn" type="submit">Submit</button>
